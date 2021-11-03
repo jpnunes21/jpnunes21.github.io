@@ -1,0 +1,41 @@
+body {
+    background: rgb(204, 213, 174);
+}
+#descrição {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.maior {
+    font-size: larger;
+}
+.nacionalidade {
+   text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.descripition {
+    position: absolute;
+    left: 180px;
+    top: 80px;
+    margin: 10px;
+    padding: 5px;
+}
+.name {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image {
+    position: absolute;
+    top: 100px;
+    padding: 10px;
+    background-color: black;
+}
+.habilidades {
+    top: 325px;
+    position: absolute;
+}
+.redes {
+    position: absolute;
+    top: 480px;
+}
+.listahabilidades li:nth-child(2n+1) {
+    color: navy;
+}
